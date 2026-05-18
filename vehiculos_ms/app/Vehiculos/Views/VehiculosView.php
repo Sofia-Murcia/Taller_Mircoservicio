@@ -1,5 +1,5 @@
 <?php
-  namespace App\Vehiculos\View;
+  namespace App\Vehiculos\Views;
 
   class VehiculosView {
     public static function success(mixed $data, int $code = 200): void {

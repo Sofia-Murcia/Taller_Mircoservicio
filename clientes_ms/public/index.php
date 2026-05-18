@@ -3,6 +3,7 @@
 
   use App\Middlewares\CorsMiddleware;
   use App\Clientes\Controllers\ClientesController;
+use App\Middlewares\CorsMiddleware as MiddlewaresCorsMiddleware;
 
   CorsMiddleware::handle();
 
