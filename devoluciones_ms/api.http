@@ -1,0 +1,11 @@
+### Registrar devolución
+  POST http://localhost/devoluciones_ms/devoluciones
+  Content-Type: application/json
+
+  {"reserva_id":1,"fecha_devolucion":"2026-06-05","observaciones":"Sin novedades"}
+
+  ### Listar todas
+  GET http://localhost/devoluciones_ms/devoluciones
+
+  ### Por reserva
+  GET http://localhost/devoluciones_ms/devoluciones?reserva_id=1

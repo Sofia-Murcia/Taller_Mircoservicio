@@ -1,0 +1,20 @@
+### Listar todas
+  GET http://localhost/reservas_ms/reservas
+
+  ### Por vehículo
+  GET http://localhost/reservas_ms/reservas?vehiculo_id=1
+
+  ### Por cliente
+  GET http://localhost/reservas_ms/reservas?cliente_id=1
+
+  ### Crear reserva
+  POST http://localhost/reservas_ms/reservas
+  Content-Type: application/json
+
+  {"vehiculo_id":1,"cliente_id":1,"fecha_inicio":"2026-06-01","fecha_fin":"2026-06-05"}
+
+  ### Cancelar
+  PUT http://localhost/reservas_ms/reservas?id=1
+  Content-Type: application/json
+
+  {"estado":"cancelada"}

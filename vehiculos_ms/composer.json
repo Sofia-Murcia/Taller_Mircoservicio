@@ -1,0 +1,8 @@
+{
+    "name": "alquiler/vehiculos-ms",
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    }
+}

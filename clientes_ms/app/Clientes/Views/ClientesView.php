@@ -1,7 +1,7 @@
 <?php
-  namespace App\Devoluciones\Views;
+  namespace App\Clientes\Views;
 
-  class DevolucionesView {
+  class ClientesView {
     public static function success(mixed $data, int $code = 200): void {
       http_response_code($code);
       echo json_encode(['status' => 'success', 'data' => $data]);

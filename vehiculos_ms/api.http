@@ -1,0 +1,23 @@
+### Listar todos
+  GET http://localhost/vehiculos_ms/vehiculos
+
+  ### Listar disponibles
+  GET http://localhost/vehiculos_ms/vehiculos?disponibles=1
+
+  ### Obtener por ID
+  GET http://localhost/vehiculos_ms/vehiculos?id=1
+
+  ### Crear
+  POST http://localhost/vehiculos_ms/vehiculos
+  Content-Type: application/json
+
+  {"marca":"Mazda","modelo":"CX-5","anio":2023,"categoria":"suv","placa":"PQR-678","precio_dia":130000}
+
+  ### Actualizar
+  PUT http://localhost/vehiculos_ms/vehiculos?id=1
+  Content-Type: application/json
+
+  {"estado":"mantenimiento"}
+
+  ### Eliminar
+  DELETE http://localhost/vehiculos_ms/vehiculos?id=1
